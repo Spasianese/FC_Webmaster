@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("img/Engineering.jpg");
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(7, 5fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 2%;
+    background: #0066cc;
+    width: 100vw;
+    text-align: center;
+}
+
+header > .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	font-size: 1.5em;	
+	color: rgb(255, 255, 255);
+	grid-column-start: 4;
+	grid-row: 1;
+}
+
+header > .home:hover {
+	background-color: rgb(255, 255, 255);
+    color:rgb(32, 104, 236);
+}
+
+header > .menu {
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	font-size: 1.5em;	
+	color: rgb(255, 255, 255);
+}
+
+header > .gap {
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	font-size: 1.5em;	
+	color: rgb(255, 255, 255);
+}
+
+header > .menu:hover {
+	background-color: rgb(255, 255, 255);
+    color:rgb(32, 104, 236);
+}
+
+.schoologo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+	grid-row: 1;
+}
+
+.tsaogo {
+    display: flex;
+    align-items: center;
+    background-color: none;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-row: 1;
+}
+
+table {
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+td {
+    border-bottom: 1px dotted black;
+    border-right: 1px dotted black;
+}
+
+tr:last-child > td {
+    border-bottom: none;
+}
+
+tr > td:last-child {
+    border-right: none;
+    width: 30%;
+}
+
+tr > td:first-child {
+    width: 10%;
+}
+
+tr > td:nth-child(2) {
+    width: 10%;
+}
+
+tr > td:nth-child(3) {
+    width: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.caption {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 2%;
+    width: 100vw;
+    text-align: center;
+}
+.caption > .i {
+    border-radius: 100px;
+    background: white;
+    margin: 5px;
+}
+
+.caption > .p {
+    background: white;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    height: auto;
+    width: 50%;
+}

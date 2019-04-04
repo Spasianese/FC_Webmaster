@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <title>Imagine Dragons</title>
+	  <link rel="Stylesheet" href="css/Stylesheet.css">
+	  <link rel="Stylesheet" href="css/Slide.css">
+	  <link rel="icon" href="img/unedited/Dragon.png">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+<header>
+	<div id="Sidebar" style="display:none" class="long">
+		<div class="container" onclick="sidebarEmpty()">
+			<div class="close">
+			  <span id="x">X</span>
+			</div>
+		</div>
+			<div class="flex-container">
+				<a href="index.html" class="flex-item">Home</a>
+				<a href="Biography.html" class="flex-item">Biography</a>
+				<a href="Music.html" class="flex-item">Music</a>
+				<a href="Store.html" class="flex-item">Store</a>
+				<a href="About.html" class="flex-item">About Us</a>
+			</div>
+	</div>
+	  	<div class="container" onclick="sidebarFull()">
+				<div class="hamburger"></div>
+				<div class="hamburger"></div>
+				<div class="hamburger"></div>
+			</div>
+		   <div id="logo">Imagine Dragons</div>
+			<a href="index.html" class="grid-item">Home</a>
+			<a href="Biography.html" class="grid-item">Biography</a>
+			<a href="Music.html" class="grid-item">Music</a>
+			<a href="Store.html" class="grid-item">Store</a>
+			<a href="About.html" class="grid-item">About Us</a>
+</header>
+<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <img src="img_nature_wide.jpg" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+				  <img src="img_snow_wide.jpg" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+				  <img src="img_mountains_wide.jpg" style="width:100%">
+				</div>
+</div>				
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		<script src="js/nav.js"></script>
+		<script src="js/Slide.js"></script>
+	</body>
+</html>

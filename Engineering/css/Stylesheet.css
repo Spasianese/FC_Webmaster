@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgb(0, 133, 62);
+    background-size: 30vh, 100vw;
+}
+
+.hcontent {
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+nav {
+    background: rgb(0, 133, 62)
+}
+
+table {
+    float: left;
+}
+
+tr > td:last-child {
+    width: 25%
+}
+
+tr > td:first-child {
+    width: 10%;
+}
+
+tr > td:nth-child(2) {
+    width: 10%;
+}

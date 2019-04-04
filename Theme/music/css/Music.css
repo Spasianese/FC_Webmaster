@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Logo;
+  src: url(fonts/Strasua.ttf);
+}
+
+.grid-container {
+  display: grid;
+  background: rgba(0, 0, 0);
+  color: white;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin: 5px;
+  font-family: Logo;
+}
+
+.grid-container > .Albuminfo {
+  
+}
+
+.grid-container > .Albuminfo img {
+  float: left;
+  margin: 40px;
+  display: inline-block;
+}
+
+.grid-container > .Albuminfo ol {
+  margin-left: 20px;
+  font-size: 25px;
+  column-count: 2;
+}
+
+.grid-container > .Songinfo {
+  background: rgba(68, 68, 68, 50%);
+  padding: 10px;
+}
+
+#Title {
+  margin-left: 5px;
+  color: white;
+}
+
+#Lyrics {
+  color: white;
+  margin-left: 20px;
+}
+
+img {
+    border: 2px, solid, white;
+}
+
+#Title {
+ margin: 5px;
+ color: white;
+}
+
+#model {
+display: none;
+background-color: rgba(0, 0, 0);
+postion: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+width: 100%; 
+height: 120vh;
+margin-top: -580px;
+grid-template-rows: 10vh 90vh;
+grid-template-columns: ;
+}
+
+grid-container > audio, #Song {
+float: right;
+margin: 5px;
+}
+
+grid-container > span {
+font-weight: 700px;
+float: right;
+margin: 5px;
+cursor: pointer;
+}
+
